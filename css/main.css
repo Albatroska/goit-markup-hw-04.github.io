@@ -141,7 +141,7 @@
         text-align: center;
         padding-top: 200px;
         padding-bottom: 200px;
-        width: 1200px;
+        max-width: 1600px;
         margin-right: auto;
         margin-left: auto;
         background:linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)), url("../images/imghero.jpg");
@@ -253,13 +253,13 @@
         padding-top: 94px;
         padding-bottom: 94px;
         background-color: #F5F4FA;
-        width: 1200px;
+       /* width: 1200px;*/
     }
     
     .image{
         background-color: #FFFFFF;
         width: 270px;
-        height: 368px;
+        
     }
     
     .img,
@@ -295,7 +295,7 @@
     .iconteam:not(:last-child){
         margin-right: 10px;
     }
-    .icon-team {
+    .icon-team-link {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -310,14 +310,17 @@
         object-fit: contain;
         fill:#AFB1B8;
     }
-    .icon-team:hover,
-    .icon-team:focus {
+    .icon-team-link:hover,
+    .icon-team-link:focus {
         fill:#FFFFFF;
         background-color: var(--link-blue-color);
      }
     /* Постоянные клиенты */
-    .titleclient{
+    .clients{
         padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .titleclient{
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0,3em;
@@ -326,7 +329,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        padding-bottom: 94px;
+       
     }
     .client-list{
         list-style-type: none;
@@ -357,9 +360,10 @@
 
     .footer{
         background-color: #2f303a;
-        width: 1200px;
+        /*width: 1200px;*/
         padding-top: 60px;
-        padding-bottom: 60px;   
+        padding-bottom: 60px;
+
     }
     .footerlistlogo{
         display: flex; 
@@ -433,10 +437,10 @@
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-    .icon-team:not(:last-child){
+    .icon-teamfooter:not(:last-child){
         margin-right: 10px;
     }
-    .icon-teamfooter {
+    .icon-teamfooter-link {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -451,8 +455,8 @@
         object-fit: contain;
         fill:var(--title-white-color);
     }
-    .icon-teamfooter:hover,
-    .icon-teamfooter:focus {
+    .icon-teamfooter-link:hover,
+    .icon-teamfooter-link:focus {
         fill:#FFFFFF;
         background-color: var(--link-blue-color);}
     
